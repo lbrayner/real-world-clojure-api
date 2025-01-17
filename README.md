@@ -70,10 +70,16 @@ cd real-world-clojure-api
 2. Start the project in development mode:
 
 ```bash
-clj -A:dev
+clj -A:dev -M -r
 ```
 
 This command uses the `:dev` alias specified in the project configuration to start the project in development mode. It will load the `dev` namespace and execute the required functions.
+
+Execute `component-repl/reset`:
+
+```
+dev=> (component-repl/reset)
+```
 
 ## Dependencies
 
