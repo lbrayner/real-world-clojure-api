@@ -92,7 +92,7 @@
     :items []}])
 
 (defn respond-hello
-  [request]
+  [_request]
   {:status 200
    :body "Hello world"})
 
