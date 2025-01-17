@@ -2,9 +2,7 @@
 *.iml
 .cpcache
 .nrepl-port
-.clj-kondo/.cache
-.clj-kondo/prismatic
-.clj-kondo/com.github.seancorfield
+.clj-kondo/
 .calva
 .fleet
 .lsp
